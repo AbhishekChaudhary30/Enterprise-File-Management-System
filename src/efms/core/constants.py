@@ -1,0 +1,33 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path.cwd()
+
+CONFIG_DIRECTORY = PROJECT_ROOT / "config"
+
+DATA_DIRECTORY = PROJECT_ROOT / "data"
+
+LOG_DIRECTORY = PROJECT_ROOT / "logs"
+
+BACKUP_DIRECTORY = PROJECT_ROOT / "backups"
+
+REPORT_DIRECTORY = PROJECT_ROOT / "reports"
+
+SAMPLE_DATA_DIRECTORY = PROJECT_ROOT / "sample_data"
+
+WORKSPACE_DIRECTORY = PROJECT_ROOT / "workspace"
+
+TESTING_DIRECTORY = PROJECT_ROOT / "testing"
+
+DATABASE_DIRECTORY = PROJECT_ROOT / "workspace"
+
+DATABASE_FILE = DATABASE_DIRECTORY / "efms.db"
+
+TRASH_DIRECTORY = DATA_DIRECTORY / "trash"
+
+TRASH_DIRECTORY.mkdir(
+  
+    parents=True,
+    
+    exist_ok=True,
+    
+  )

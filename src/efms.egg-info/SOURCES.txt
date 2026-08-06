@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/efms/__init__.py
+src/efms/main.py
+src/efms.egg-info/PKG-INFO
+src/efms.egg-info/SOURCES.txt
+src/efms.egg-info/dependency_links.txt
+src/efms.egg-info/top_level.txt
+src/efms/core/interfaces.py
+src/efms/managers/__init__.py
+src/efms/managers/file_manager.py
+src/efms/managers/folder_manager.py

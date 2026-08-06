@@ -1,0 +1,12 @@
+{
+    "application_name": "Enterprise File Management System",
+    "version": "1.0.0",
+
+    "organization_folder": "organized",
+
+    "default_backup_folder": "backups",
+
+    "log_level": "INFO",
+
+    "hash_algorithm": "sha256"
+}
